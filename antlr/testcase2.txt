@@ -1,0 +1,34 @@
+class animal begin
+//object instantiation
+private pig pigs=pig(1,12);
+public elephant el;
+int $pigSpeed,elephantSpeed;
+int foodForPig=0,foodForEle=0;
+int speedSum=0;
+//if
+if($pigSpeed>elephantSpeed)begin
+foodForPig++;
+end
+else if(elephantSpeed>$pigSpeed)begin
+foodForEle++;
+end
+//while
+while($pigSpeed>0) begin
+foodForPig++;
+$pigSpeed-=1;
+end
+//switch_case
+switch animal begin
+case "ele":
+print("elephant.www");
+break;
+case "pig":
+break;
+end
+//try catch
+try begin
+speedSum=$pigSpeed+elephantSpeed;
+end
+catch(negativeNumber,valueError)begin
+print("oopss.oopss");
+end

@@ -1,0 +1,25 @@
+func1 = from <math> require <floor>;
+lib1=require<math>;
+
+class test(test) implements test1,test2 begin
+//variables
+int myarray[]=new int[4];
+float myarray2[]=[0.05,42,42.25,43];
+private bool flag;
+//function
+int moveHorizontal(int step,bool postivie)begin
+private int px=0;
+px+=step;
+return px;
+end
+//for
+for (int myVar= 0;myVar<count and count>5;myVar--) begin
+sum+=myVar;
+end
+do begin
+int num,num1,num2,result;
+num=num1/num2;
+result=num;
+end while(result>0)
+//ternary expr
+return isSunny? "snowy" : temp/2;

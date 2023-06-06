@@ -1,0 +1,35 @@
+//import
+lib1=from<math> => <floor>;
+func1,func2=from<math> require <floor>,from <math> require <pow>;
+class student implements person1,person2 begin
+private int id;
+public double avg;
+int count=10;
+double sum=0.0;
+//constructor
+student(int id,double avg) begin
+this.id=id;
+this.avg=avg;
+end
+//for loop
+for(int i=0;i<10 or avg>16.6;i++)begin
+sum+=avg;
+end
+//iterative for
+for p in myList begin
+newList.add(p.name);
+end
+end
+//second class
+class circle(shape) begin
+int length,width;
+//area
+int area(int len,int wid) begin
+int result;
+if(len<0 || wid<0) begin
+return null;
+end
+result=len*wid;
+return result;
+end
+end
